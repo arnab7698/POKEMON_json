@@ -18,3 +18,6 @@ Manifest files
 Locally accessible JSON or text files
 
 Build Process: The contents of the public folder are copied directly to the build output directory.
+
+<img src={window.location.origin + `/pokemons/${pokeObj.id}.png`} />
+images placed inside the public folder can be accessed by this source.
